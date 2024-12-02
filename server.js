@@ -9,8 +9,10 @@ const { MongoClient } = require('mongodb');
 // Create an Express application
 const app = express();
 
+
+
 // MongoDB Atlas connection
-const MONGO_URI = 'mongodb+srv://k28955965:AFv7Hfgg7LlihlOz@cluster0.bwcgm.mongodb.net/'; //  MongoDB Atlas URI
+const MONGO_URI = 'mongodb+srv://clinton:Open1414@work.xz5hq.mongodb.net/'; //  MongoDB Atlas URI
 const client = new MongoClient(MONGO_URI);
 
 let productsCollection;
